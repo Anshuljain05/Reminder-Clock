@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <title>Alarm Clock</title>
+    <!-- fontawesome support link for using special icons/buttons -->
+    <script src="https://kit.fontawesome.com/7e560fd597.js" crossorigin="anonymous"></script>
+    <!-- final stylesheet to override all other styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="top-container">
+            <div id="heading">Clock</div>
+            <div id="display-time">
+            
+            </div>
+            <br>
+            <form>
+                <div id="set-alarm">
+                    <div id="form-inputs">
+                        <input type="number" name="hrs" placeholder="Hr(s)" min="1" max="12" required>
+                        <input type="number" name="mins" placeholder="Min(s)" min="0" max="60" required>
+                        <input type="number" name="secs" placeholder="Sec(s)" min="0" max="60" required>
+                        <select name="ampm" required>
+                            <option value="" selected disabled>AM/PM</option>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </div>
+                    <button type="submit">Set Alarm</button>
+                </div>
+            </form>
+        </div>
+        <div class="bottom-container">
+            <h1>Your alarms appear here!</h1>
+            <ul id="alarms">
+                <!-- <div class="start">
+                    <span>'+newAlarmString+'</span>
+                </div>
+                <div id="'+liCount+'" class="end" onclick="handleDelete();">
+                    <button id="delete">Delete</button>
+                </div> -->                
+            </ul>
+        </div>
+        <audio id="alarm-sound" src="http://soundbible.com/grab.php?id=2197&type=mp3" preload="auto"></audio>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

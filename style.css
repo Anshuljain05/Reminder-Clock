@@ -1,0 +1,162 @@
+*{
+    background-color: black;
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+.top-container {
+    max-width: 60vw;
+    min-height: 40vh;
+    padding: 15px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 5px 5px rgb(187 187 187);
+    border-radius: 1.5%;
+    background-color: black;
+    color: white;
+}
+
+.bottom-container {
+    max-width: 60vw;
+    min-height: 0vh;
+    padding: 15px;
+    margin: 30px auto;
+    box-shadow: 0px 5px 5px 5px rgb(187 187 187);
+    border-radius: 1.5%;
+    background-color: black;
+}
+
+
+
+/* title bar */
+#heading {
+    color: white;
+    width: 35%;
+    text-align: center;
+    font-size: 1.55rem;
+    margin: 10px auto;
+    padding: 5px;
+    height: 55px;
+    line-height: 55px;
+    box-shadow: 0px 4px 5px 3px rgb(187 187 187);
+    border-radius: 10%;
+}
+
+/* display bar */
+#display-time {
+    color: white;
+    width: 60%;
+    text-align: center;
+    font-size: 1.68rem;
+    margin: 15px auto;
+    padding: 3px;
+    height: 55px;
+    line-height: 55px;
+    box-shadow: 0px 5px 5px 5px rgb(187 187 187);
+    border-radius: 10px;
+}
+
+/* set-alarm div */
+#set-alarm {
+    color: white;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 3px;
+    height: 60px;
+    box-shadow: 0px 5px 5px 5px rgb(187 187 187);
+    border-radius: 5px;
+}
+
+/* set-alarm form-inputs */
+#form-inputs {
+    color: white;
+    width: 75%;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 2px 2px 2px 2px;
+    padding: 3px;
+    height: 55px;
+}
+
+/* set-alarm form-input input tag */
+#form-inputs > input {
+    color: white;
+    text-align: center;
+    font-size: 1.01rem;
+    margin: 2px 2px 2px 2px;
+    padding: 3px;
+    
+}
+
+/* set-alarm form-input select tag */
+#form-inputs > select {
+    color: #757575;
+    text-align: center;
+    font-size: 1.01rem;
+    margin: 8px 2px 2px 2px;
+    padding: 3px;
+}
+
+/* set-alarm button */
+#set-alarm > button {
+    color: white;
+    width: 25%;
+    text-align: center;
+    font-size: 1.01rem;
+    margin: 2px 2px 2px 2px;
+    padding: 3px;
+    height: 55px;
+}
+
+h1{
+    color: white;
+    font-size: 1.2rem;
+}
+
+#alarms {
+    color: white;
+    width: 95%;
+    margin: auto;
+    padding: 3px;
+    height: 100%;
+    box-shadow: 0px 5px 5px 5px rgb(187 187 187);
+    border-radius: 5px;
+}
+
+#alarms > li{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 3px;
+    height: 55px;
+}
+
+.start {
+    color: white;
+    width: 70%;
+    text-align: left;
+    font-size: 1.01rem;
+    margin: 10px 2px 2px 2px;
+    padding: 3px;
+    height: 35px;
+}
+
+.end {
+    color: white;
+    width: 30%;
+    text-align: right;
+    font-size: 1.01rem;
+    margin: 10px 2px 2px 2px;
+    padding: 3px;
+    height: 35px;
+}
+
+#delete{
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.01rem;
+    padding: 3px;
+}
